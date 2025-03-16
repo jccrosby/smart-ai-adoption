@@ -46,7 +46,7 @@ mdc: true
 layout: intro
 ---
 
-# Introduction (5 min)
+# Introduction
 
 - Hook: “AI won’t take your job—but someone using it smarter will.”
 - Quick audience check: Who has experimented with AI? Who feels overwhelmed by the AI hype?
