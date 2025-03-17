@@ -1,6 +1,6 @@
 ---
 # You can also start simply with 'default'
-theme: default
+theme: seriph
 background: /covers/coors-field.webp
 # some information about your slides (markdown enabled)
 title: AI for Teams - Smart Adoption Not Blind FOMO
@@ -18,6 +18,7 @@ fonts:
   mono: Fira Code
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
+exportFilename: smart-ai-adoption
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---
@@ -229,8 +230,11 @@ background: /covers/little-league-field.webp
 # AI Evaluation <br/> The LEAP Framework
 
 <!--
-- Distilling the Rubric
-- Learn, Evaluate, Apply, Practice
+- Distilling the Rubric into four key repeatable steps:
+  1. Learn
+  2. Evaluate
+  3. Apply
+  4. Practice
 -->
 
 ---
