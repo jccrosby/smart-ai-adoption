@@ -307,6 +307,5 @@ layout: cover
 - Smart adoption beats blind FOMO **every time**
 - **Final rubric reminder:
   - Ask the questions!
-  - ** Learn, evaluate, apply **(in that order!)**
-  - Q&A
+  - ** Learn, evaluate, apply (in that order!)**
 -->
