@@ -149,7 +149,7 @@ Without anchoring to a real problem, AI adoption often becomes a vanity project 
 
 ---
 layout: image-right
-image: /images/efficiency-quality-matrix-claude.svg
+image: /images/efficiency-quality-matrix-chatgpt.png
 ---
 
 # How does it impact efficiency vs. quality?
@@ -274,7 +274,9 @@ layout: center
 ## Script
 
 First, watch out for vague use cases. If no one can articulate a clear, tangible problem the AI will solve, that's a major warning sign.
+
 Second, be wary of hype-driven adoption where the primary motivator is 'everyone else is doing it' rather than solving a specific need.
+
 Finally, if there are no clear KPIs for measuring success, how will you know if the AI is actually delivering value? Without measurable indicators like efficiency gains or error reduction, you're essentially flying blind.
 -->
 
@@ -292,6 +294,7 @@ layout: center
 ## Script
 
 Overemphasis on speed alone. If the focus is solely on faster processes without considering accuracy or effectiveness, that's a problem.
+
 Hidden quality costs. Small lapses in quality might go unnoticed during early testing, but they can escalate into major issues after deployment. If the AI isn't properly calibrated, you could end up with a faster process that produces subpar results.
 -->
 
@@ -309,7 +312,9 @@ layout: center
 ## Script
 
 Unverified data sources. If the origins of the training data are unclear, it raises concerns about accuracy or bias.
+
 Weak security protocols. If there's no transparent plan for preventing data breaches or securing sensitive information, that's a major risk.
+
 Absence of ethical guidelines. If there's no framework to address potential algorithmic discrimination or misuse of the tool, you're opening yourself up to significant risks.
 -->
 
@@ -327,7 +332,9 @@ layout: center
 ## Script
 
 Black-box models with no explanation. If the AI's decision-making process is opaque, it makes it hard to diagnose errors or biases.
+
 Lack of mechanisms for verification. If there's no systematic way to check or replicate results for accuracy, you're setting yourself up for failure.
+
 Limited testing. If the tool is rolled out broadly with minimal piloting or staged deployment, you're risking major issues down the line.
 -->
 
@@ -345,8 +352,11 @@ layout: center
 ## Script
 
 Major workflow disruption. If the implementation requires an overhaul of current systems, it risks low user adoption and productivity dips.
+
 Inadequate user training. If end users or frontline teams are not sufficiently prepared to integrate AI into their daily tasks, you're setting yourself up for failure.
+
 Lack of IT/operations readiness. If there's no clear plan for data management, software compatibility, or ongoing maintenance and support, you're opening yourself up to significant risks.
+
 - These red flags should be taken seriously. If you see one or more of these in your evaluation, it's time to pause and reassess.
 - AI can be speeding things up, but at what cost? It's it doing bad things more quickly?
 -->
@@ -489,4 +499,15 @@ Remember the framework we've discussed today:
 - Follow the LEAP process: Learn, Evaluate, Apply, Practice
 
 Thank you for your time today. I'm happy to take questions and discuss specific AI challenges you might be facing in your organizations.
+-->
+
+---
+layout: cover
+---
+
+# Thank You!
+
+<!--
+I really do appreciate your time and attention. And I hope you found this session valuable.
+If you have questions, feedback, or just want to discuss AI in general, please feel free to reach out to me via BlueSky or email.
 -->
