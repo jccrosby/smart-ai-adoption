@@ -1,7 +1,6 @@
 ---
 # You can also start simply with 'default'
 theme: seriph
-background: /covers/coors-field.webp
 # some information about your slides (markdown enabled)
 title: AI for Teams - Smart Adoption Not Blind FOMO
 info: |
@@ -25,11 +24,11 @@ mdc: true
 
 # AI for Teams - Smart Adoption Not Blind FOMO
 
-### John Crosby • Principal Engineer, Client Engineering • MLB
+### John Crosby
 
-<a href="mailto:john@hellocrosby.com">john@hellocrosby.com</a>
+#### Principal Engineer, Client Engineering
 
-<a href="https://bsky.app/profile/jcc.bsky.social" target="_blank">@jcc.bsky.social</a>
+#### MLB
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/jcrosby/smart-ai-adoption" target="_blank" class="slidev-icon-btn">
@@ -43,7 +42,6 @@ mdc: true
 
 ---
 layout: cover
-background: /covers/pnc-park.webp
 ---
 
 # AI won’t take your job — someone using it smarter will.
@@ -59,7 +57,6 @@ background: /covers/pnc-park.webp
 
 ---
 layout: cover
-background: /covers/baseballs-infield.webp
 ---
 
 # AI Myths & Misconceptions
@@ -76,7 +73,6 @@ background: /covers/baseballs-infield.webp
 
 ---
 layout: cover
-background: /covers/baseballs-rail.webp
 ---
 
 # Smart AI Adoption: How to Evaluate AI for Your Team
@@ -157,7 +153,6 @@ layout: center
 
 ---
 layout: cover
-background: /covers/pitcher-on-mound.webp
 ---
 
 # Red Flags to Watch For
@@ -224,7 +219,6 @@ layout: center
 
 ---
 layout: cover
-background: /covers/little-league-field.webp
 ---
 
 # AI Evaluation <br/> The LEAP Framework
@@ -279,7 +273,6 @@ layout: center
 
 ---
 layout: cover
-background: /covers/yankee-stadium.webp
 ---
 
 # Practical AI Use Cases for Teams
@@ -293,7 +286,6 @@ background: /covers/yankee-stadium.webp
 
 ---
 layout: cover
-background: /covers/rodgers-center.webp
 ---
 
 # Communicating AI Strategy to Leadership
@@ -306,7 +298,6 @@ background: /covers/rodgers-center.webp
 
 ---
 layout: cover
-background: /covers/stadium-seats.jpg
 ---
 
 # Conclusion & Key Takeaways
