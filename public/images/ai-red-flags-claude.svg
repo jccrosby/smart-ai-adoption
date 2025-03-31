@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="15" ry="15"/>
+  
+  <!-- Title Box -->
+  <rect x="200" y="30" width="400" height="60" rx="10" fill="#dc3545" fill-opacity="0.1" stroke="#dc3545" stroke-width="2"/>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#dc3545">Red Flags to Watch For</text>
+  
+  <!-- Red Flags Grid -->
+  <!-- We'll create multiple rows of red flags with different sizes and slight angle variations -->
+  
+  <!-- Row 1 -->
+  <g transform="translate(70, 150)">
+    <!-- Flag 1 -->
+    <g transform="rotate(-5)">
+      <line x1="0" y1="0" x2="0" y2="70" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 30,10 0,20" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Vague Use Cases</text>
+    </g>
+    
+    <!-- Flag 2 -->
+    <g transform="translate(90, 10) rotate(3)">
+      <line x1="0" y1="0" x2="0" y2="60" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 25,8 0,16" fill="#dc3545"/>
+      <text x="30" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Hype-Driven</text>
+    </g>
+    
+    <!-- Flag 3 -->
+    <g transform="translate(170, 5) rotate(-2)">
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 35,12 0,24" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">No Clear KPIs</text>
+    </g>
+    
+    <!-- Flag 4 -->
+    <g transform="translate(260, 15) rotate(5)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 30,10 0,20" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Speed Over Quality</text>
+    </g>
+    
+    <!-- Flag 5 -->
+    <g transform="translate(350, 0) rotate(-4)">
+      <line x1="0" y1="0" x2="0" y2="75" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 28,9 0,18" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Hidden Quality Costs</text>
+    </g>
+    
+    <!-- Flag 6 -->
+    <g transform="translate(450, 10) rotate(2)">
+      <line x1="0" y1="0" x2="0" y2="70" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 32,11 0,22" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Unverified Data</text>
+    </g>
+    
+    <!-- Flag 7 -->
+    <g transform="translate(530, 5) rotate(-3)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 25,8 0,16" fill="#dc3545"/>
+      <text x="30" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Weak Security</text>
+    </g>
+    
+    <!-- Flag 8 -->
+    <g transform="translate(610, 15) rotate(4)">
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 35,12 0,24" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">No Ethics Framework</text>
+    </g>
+  </g>
+  
+  <!-- Row 2 -->
+  <g transform="translate(40, 240)">
+    <!-- Flag 1 -->
+    <g transform="rotate(3)">
+      <line x1="0" y1="0" x2="0" y2="75" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 32,11 0,22" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Black-Box Models</text>
+    </g>
+    
+    <!-- Flag 2 -->
+    <g transform="translate(110, 10) rotate(-4)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 28,9 0,18" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">No Verification</text>
+    </g>
+    
+    <!-- Flag 3 -->
+    <g transform="translate(190, 5) rotate(2)">
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 35,12 0,24" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Limited Testing</text>
+    </g>
+    
+    <!-- Flag 4 -->
+    <g transform="translate(280, 15) rotate(-3)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 30,10 0,20" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Major Workflow Disruption</text>
+    </g>
+    
+    <!-- Flag 5 -->
+    <g transform="translate(380, 0) rotate(4)">
+      <line x1="0" y1="0" x2="0" y2="75" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 28,9 0,18" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Inadequate Training</text>
+    </g>
+    
+    <!-- Flag 6 -->
+    <g transform="translate(470, 10) rotate(-2)">
+      <line x1="0" y1="0" x2="0" y2="70" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 32,11 0,22" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">No IT Readiness</text>
+    </g>
+    
+    <!-- Flag 7 -->
+    <g transform="translate(560, 5) rotate(5)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 25,8 0,16" fill="#dc3545"/>
+      <text x="30" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Unexplainable Results</text>
+    </g>
+    
+    <!-- Flag 8 -->
+    <g transform="translate(650, 12) rotate(-5)">
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 35,12 0,24" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Vendor Lock-in</text>
+    </g>
+  </g>
+  
+  <!-- Row 3 -->
+  <g transform="translate(70, 330)">
+    <!-- Flag 1 -->
+    <g transform="rotate(-3)">
+      <line x1="0" y1="0" x2="0" y2="70" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 30,10 0,20" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Excessive Costs</text>
+    </g>
+    
+    <!-- Flag 2 -->
+    <g transform="translate(100, 10) rotate(4)">
+      <line x1="0" y1="0" x2="0" y2="60" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 25,8 0,16" fill="#dc3545"/>
+      <text x="30" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Data Privacy Issues</text>
+    </g>
+    
+    <!-- Flag 3 -->
+    <g transform="translate(200, 5) rotate(-5)">
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 35,12 0,24" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Unclear Ownership</text>
+    </g>
+    
+    <!-- Flag 4 -->
+    <g transform="translate(290, 15) rotate(2)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 30,10 0,20" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Hidden Dependencies</text>
+    </g>
+    
+    <!-- Flag 5 -->
+    <g transform="translate(380, 0) rotate(-2)">
+      <line x1="0" y1="0" x2="0" y2="75" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 28,9 0,18" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Poor Documentation</text>
+    </g>
+    
+    <!-- Flag 6 -->
+    <g transform="translate(470, 10) rotate(5)">
+      <line x1="0" y1="0" x2="0" y2="70" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 32,11 0,22" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Unknown Limitations</text>
+    </g>
+    
+    <!-- Flag 7 -->
+    <g transform="translate(560, 5) rotate(-4)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 25,8 0,16" fill="#dc3545"/>
+      <text x="30" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Integration Issues</text>
+    </g>
+    
+    <!-- Flag 8 -->
+    <g transform="translate(640, 12) rotate(3)">
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 35,12 0,24" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Unrealistic Expectations</text>
+    </g>
+  </g>
+  
+  <!-- Row 4 -->
+  <g transform="translate(40, 420)">
+    <!-- Flag 1 -->
+    <g transform="rotate(4)">
+      <line x1="0" y1="0" x2="0" y2="75" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 32,11 0,22" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Unclear ROI</text>
+    </g>
+    
+    <!-- Flag 2 -->
+    <g transform="translate(100, 10) rotate(-3)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 28,9 0,18" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Data Silos</text>
+    </g>
+    
+    <!-- Flag 3 -->
+    <g transform="translate(180, 5) rotate(5)">
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 35,12 0,24" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Compliance Risks</text>
+    </g>
+    
+    <!-- Flag 4 -->
+    <g transform="translate(270, 15) rotate(-5)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 30,10 0,20" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Weak Governance</text>
+    </g>
+    
+    <!-- Flag 5 -->
+    <g transform="translate(360, 0) rotate(2)">
+      <line x1="0" y1="0" x2="0" y2="75" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 28,9 0,18" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Incomplete Testing</text>
+    </g>
+    
+    <!-- Flag 6 -->
+    <g transform="translate(450, 10) rotate(-4)">
+      <line x1="0" y1="0" x2="0" y2="70" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 32,11 0,22" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Poor Scalability</text>
+    </g>
+    
+    <!-- Flag 7 -->
+    <g transform="translate(540, 5) rotate(3)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 25,8 0,16" fill="#dc3545"/>
+      <text x="30" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Opacity in Algorithms</text>
+    </g>
+    
+    <!-- Flag 8 -->
+    <g transform="translate(640, 15) rotate(-2)">
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 35,12 0,24" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Adoption Resistance</text>
+    </g>
+  </g>
+  
+  <!-- Row 5 -->
+  <g transform="translate(70, 510)">
+    <!-- Flag 1 -->
+    <g transform="rotate(-4)">
+      <line x1="0" y1="0" x2="0" y2="70" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 30,10 0,20" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">AI Washing</text>
+    </g>
+    
+    <!-- Flag 2 -->
+    <g transform="translate(110, 10) rotate(3)">
+      <line x1="0" y1="0" x2="0" y2="60" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 25,8 0,16" fill="#dc3545"/>
+      <text x="30" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Incompatible Systems</text>
+    </g>
+    
+    <!-- Flag 3 -->
+    <g transform="translate(210, 5) rotate(-2)">
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 35,12 0,24" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Too Much Complexity</text>
+    </g>
+    
+    <!-- Flag 4 -->
+    <g transform="translate(320, 15) rotate(5)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 30,10 0,20" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Misaligned Incentives</text>
+    </g>
+    
+    <!-- Flag 5 -->
+    <g transform="translate(420, 0) rotate(-3)">
+      <line x1="0" y1="0" x2="0" y2="75" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 28,9 0,18" fill="#dc3545"/>
+      <text x="35" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Fragile Models</text>
+    </g>
+    
+    <!-- Flag 6 -->
+    <g transform="translate(510, 10) rotate(4)">
+      <line x1="0" y1="0" x2="0" y2="70" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 32,11 0,22" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">No Plan B</text>
+    </g>
+    
+    <!-- Flag 7 -->
+    <g transform="translate(590, 5) rotate(-5)">
+      <line x1="0" y1="0" x2="0" y2="65" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 25,8 0,16" fill="#dc3545"/>
+      <text x="30" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Untraceable Decisions</text>
+    </g>
+    
+    <!-- Flag 8 -->
+    <g transform="translate(680, 15) rotate(2)">
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#6c757d" stroke-width="3"/>
+      <polygon points="0,0 35,12 0,24" fill="#dc3545"/>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="10" fill="#343a40">FOMO-Driven Adoption</text>
+    </g>
+  </g>
+</svg>
