@@ -11,11 +11,7 @@
   "dependencies": {
     "@slidev/cli": "^51.2.2",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
-    "slidev-theme-light-icons": "^1.0.2",
-    "slidev-theme-neversink": "^0.3.6",
     "slidev-theme-unicorn": "^1.1.2",
-    "slidev-theme-unocorn": "link:../../../../Library/pnpm/global/5/node_modules/slidev-theme-unocorn",
     "vue": "^3.5.13"
   },
   "devDependencies": {

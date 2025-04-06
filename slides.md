@@ -20,6 +20,7 @@ transition: slide-left
 exportFilename: smart-ai-adoption
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+colorSchema: auto
 ---
 
 # AI for Teams - Smart Adoption Not Blind FOMO
