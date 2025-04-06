@@ -1,6 +1,6 @@
 ---
 # You can also start simply with 'default'
-theme: seriph
+theme: ./theme
 # some information about your slides (markdown enabled)
 title: AI for Teams - Smart Adoption Not Blind FOMO
 info: |
@@ -24,6 +24,15 @@ mdc: true
 
 # AI for Teams - Smart Adoption Not Blind FOMO
 
+<!--
+# AI for Teams - Smart Adoption Not Blind FOMO
+-->
+
+---
+layout: intro
+introImage: /images/john-crosby.jpg
+---
+
 ### John Crosby
 
 #### Principal Engineer, Client Engineering
@@ -37,15 +46,19 @@ mdc: true
 </div>
 
 <!--
-# AI for Teams - Smart Adoption Not Blind FOMO
+- John Crosby, Principal Engineer in Client Engineering at MLB
 -->
 
 ---
-layout: cover
-background: /images/smart-vs-fomo-chatgpt.png
+layout: image-center
+image: /images/smart-vs-fomo-chatgpt.png
+imageWidth: 512
+imageHeight: 341
 ---
 
-# AI won’t take your job — someone using it smarter will.
+# AI won’t take your job
+
+## Someone who knows how to use it will.
 
 <!--
 - Hook: “AI won’t take your job — someone using it smarter will.”
@@ -70,8 +83,10 @@ That last sentiment is exactly what we'll be addressing today. In the next 30-45
 -->
 
 ---
-layout: cover
-background: /images/myths-misconceptions-chatgpt.png
+layout: image-center
+image: /images/myths-misconceptions-chatgpt.png
+imageWidth: 450
+imageHeight: 450
 ---
 
 # AI Myths & Misconceptions
@@ -148,8 +163,10 @@ Without anchoring to a real problem, AI adoption often becomes a vanity project 
 -->
 
 ---
-layout: image-right
+layout: image-center
 image: /images/efficiency-quality-matrix-chatgpt.png
+imageWidth: 450
+imageHeight: 450
 ---
 
 # How does it impact efficiency vs. quality?
@@ -248,11 +265,26 @@ Early engagement with the users who will be working with the AI is crucial here.
 -->
 
 ---
-layout: cover
-background: /images/red-flags-gemini.jpeg
+layout: image-right
+image: /images/red-flags-gemini.jpeg
 ---
 
 # Red Flags to Watch For
+
+- Vague use cases
+- Hype-driven adoption
+- No clear KPIs
+- Overemphasis on speed alone
+- Hidden quality costs
+- Unverified data sources
+- Weak security protocols
+- No ethical guidelines
+- Black-box models with no explanation
+- No mechanism for verification
+- Limited testing
+- Major workflow disruption
+- Inadequate user training
+- Lack of it/operations readiness
 
 <!--
 ## Script
@@ -261,10 +293,14 @@ Let's talk about some specific red flags that indicate an AI solution might be d
 -->
 
 ---
-layout: center
+layout: default
 ---
 
 # Real Problem vs. “Cool Factor"
+
+1. **Vague Use Cases:** No one can articulate a clear, tangible problem the AI will solve.
+2. **Hype-Driven Adoption:** The primary motive is “everyone else is doing it,” rather than solving a real need.
+3. **No Clear KPIs:** Teams lack measurable indicators for success (e.g., efficiency gains, error reduction).
 
 <!--
 1. **Vague Use Cases:** No one can articulate a clear, tangible problem the AI will solve.
@@ -281,10 +317,13 @@ Finally, if there are no clear KPIs for measuring success, how will you know if 
 -->
 
 ---
-layout: center
+layout: default
 ---
 
 # Efficiency vs. Quality
+
+1. **Overemphasis on Speed Alone:** All focus is on faster processes, with little consideration for accuracy or effectiveness.
+2. **Hidden Quality Costs:** Small lapses in quality go unnoticed during early testing and can escalate after deployment.
 
 <!--
 >
@@ -299,10 +338,14 @@ Hidden quality costs. Small lapses in quality might go unnoticed during early te
 -->
 
 ---
-layout: center
+layout: default
 ---
 
 # Risks (Bias, Security, Ethics)
+
+1. **Unverified Data Sources:** Training data origins are unclear, raising concerns about accuracy or bias.
+2. **Weak Security Protocols:** No transparent plan for preventing data breaches or securing sensitive information.
+3. **No Ethical Guidelines:** No framework to address potential algorithmic discrimination or misuse of the tool.
 
 <!--
 1. **Unverified Data Sources:** Training data origins are unclear, raising concerns about accuracy or bias.
@@ -319,10 +362,14 @@ Absence of ethical guidelines. If there's no framework to address potential algo
 -->
 
 ---
-layout: center
+layout: default
 ---
 
 # Trust in Outputs
+
+1. **Black-Box Models with No Explanation:** The AI’s decision-making process is opaque, making it hard to diagnose errors or biases.
+2. **No Mechanism for Verification:** There’s no systematic way to check or replicate results for accuracy.
+3. **Limited Testing:** The tool is rolled out broadly with minimal piloting or staged deployment.
 
 <!--
 1. **Black-Box Models with No Explanation:** The AI’s decision-making process is opaque, making it hard to diagnose errors or biases.
@@ -339,15 +386,19 @@ Limited testing. If the tool is rolled out broadly with minimal piloting or stag
 -->
 
 ---
-layout: center
+layout: default
 ---
 
 # Does it Fit Into Existing Workflows
 
+1. **Major Workflow Disruption:** Implementation requires an overhaul of current systems, risking low user adoption and productivity dips.
+2. **Inadequate User Training:** End users or frontline teams are not sufficiently prepared to integrate AI into their daily tasks.
+3. **Lack of IT/Operations Readiness:** No clear plan for data management, software compatibility, or ongoing maintenance and support.
+
 <!--
 1. **Major Workflow Disruption:** Implementation requires an overhaul of current systems, risking low user adoption and productivity dips.
-1. **Inadequate User Training:** End users or frontline teams are not sufficiently prepared to integrate AI into their daily tasks.
-1. **Lack of IT/Operations Readiness:** No clear plan for data management, software compatibility, or ongoing maintenance and support.
+3. **Inadequate User Training:** End users or frontline teams are not sufficiently prepared to integrate AI into their daily tasks.
+4. **Lack of IT/Operations Readiness:** No clear plan for data management, software compatibility, or ongoing maintenance and support.
 
 ## Script
 
@@ -362,33 +413,27 @@ Lack of IT/operations readiness. If there's no clear plan for data management, s
 -->
 
 ---
-layout: image-right
-image: /images/leap-framework-chatgpt.png
+layout: image-center
+image: /images/LEAP.png
 ---
 
 # AI Evaluation <br/> The LEAP Framework
 
-<!--
-- Distilling the Rubric into four key repeatable steps:
-  1. Learn
-  2. Evaluate
-  3. Apply
-  4. Practice
+## Distilling the Rubric into three key steps resulting in a practice.
 
+<!--
 ## Script
 
-Now let's pull everything together into a repeatable framework you can use with your teams. I call it the LEAP framework:
+To give you a structured approach to AI adoption let's pull everything together into a framework you can - We'll call it LEAP.
 
-- Learn
-- Evaluate
-- Apply
-- Practice
-
-This gives you a structured approach to AI adoption that avoids the pitfalls of FOMO-driven decisions.
+1. Learn
+2. Evaluate
+3. Apply
+4. Practice
 -->
 
 ---
-layout: center
+layout: default
 ---
 
 # LEARN
@@ -398,34 +443,35 @@ layout: center
 3. Educate team members on where AI genuinely excels and where human expertise remains critical.
 
 ---
-layout: center
+layout: default
 ---
 
 # EVALUATE
 
 1. Conduct a thorough needs assessment to verify the AI solution’s alignment with real-world problems.
-2. Examine vendors or in-house solutions using the five critical questions outlined above.
+2. Examine vendors or in-house solutions using the "five questions".
 3. Weigh the costs of adoption against the expected benefits; consider pilot programs to gather early evidence of effectiveness.
 
 ---
-layout: center
+layout: default
 ---
 
 # APPLY
 
 1. Integrate the chosen AI tool into workflows with clear accountability measures and performance tracking.
-2. Monitor for unintended consequences (e.g., new security risks, emerging biases) and iterate quickly.
-3. Share best practices and lessons learned across teams to expand responsible AI adoption.
+2. Monitor for unintended consequences (e.g., new security risks, emerging biases).
 
 ---
-layout: center
+layout: default
 ---
 
 # PRACTICE
 
-1. Refine and iterate: Treat AI adoption as an ongoing, iterative process rather than a one-time event.
-2. Evaluate performance regularly: Gather user feedback and track KPIs to adjust configurations or training data.
-3. Encourage continuous learning: Keep the team updated on new AI developments, tools, and methods to maintain a forward-thinking approach.
+## Refine and iterate: Treat AI adoption as an ongoing, iterative process rather than a one-time event.
+
+1. Evaluate performance regularly: Gather user feedback and track KPIs to adjust configurations or training data.
+2. Encourage continuous learning: Keep the team updated on new AI developments, tools, and methods to maintain a forward-thinking approach.
+3. Share best practices and lessons learned across teams to expand responsible AI adoption.
 
 ---
 layout: cover
@@ -451,7 +497,7 @@ The key for cross-functional teams is finding integration points where AI can en
 -->
 
 ---
-layout: cover
+layout: new-section
 ---
 
 # Communicating AI Strategy to Leadership
@@ -498,11 +544,15 @@ Remember the framework we've discussed today:
 - Watch for red flags
 - Follow the LEAP process: Learn, Evaluate, Apply, Practice
 
+A thought to leave you with: AI can allow us to do the same things mor efficiently. We should be string to use AI to up our game. Do bigger & better things. To expand what we're able to do and how we're able to do it. I challenge you think think about how you can use AI to push the boundaries of what we can achieve. AI isn't going to replace us - it's going to change thing, maybe augment how we work and view our world. We need to be ready for that change and we need to understand how we can leverage it to our advantage.
+
 Thank you for your time today. I'm happy to take questions and discuss specific AI challenges you might be facing in your organizations.
 -->
 
 ---
-layout: cover
+layout: end
+bsky: jcc
+website: https://blog.jccrosby.com
 ---
 
 # Thank You!
