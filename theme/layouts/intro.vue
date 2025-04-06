@@ -6,7 +6,7 @@
           :src="imageSrc"
           height="312"
           width="312"
-          class="rounded-full p-2 bg-gradient-to-r from-fuchsia-700 to-purple-800 dark:(from-white to-purple-50)"
+          class="rounded-full p-2 bg-gradient-to-r from-sky-500 to-sky-600 dark:(from-white to-sky-50)"
         />
       </figure>
       <div class="w-1/2">

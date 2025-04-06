@@ -35,7 +35,7 @@ const imageSrc = props?.sectionImage
 
 <style>
 .slidev-layout.new-section {
-  @apply bg-gradient-to-r from-fuchsia-700 to-purple-800 text-white;
+  @apply bg-gradient-to-r from-sky-500 to-sky-600 text-white;
 }
 
 .slidev-layout.new-section *,

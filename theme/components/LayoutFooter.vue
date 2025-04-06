@@ -1,7 +1,7 @@
 <template>
   <footer
     v-if="website || bsky"
-    class="mt-auto flex justify-between w-full text-fuchsia-700 dark:text-white"
+    class="mt-auto flex justify-between w-full text-sky-500 dark:text-white"
   >
     <p v-if="website" class="mb-0">
       <a :href="website" target="_blank">{{ website }}</a>
