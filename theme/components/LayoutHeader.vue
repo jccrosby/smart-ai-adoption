@@ -13,5 +13,5 @@ const props = defineProps({
     type: String,
   },
 });
-const logoSrc = computed(() => resolveAssetUrl(props.logoHeader));
+const logoSrc = computed(() => resolveAssetUrl(props?.logoHeader ?? ""));
 </script>

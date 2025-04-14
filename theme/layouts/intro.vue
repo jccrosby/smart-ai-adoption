@@ -6,7 +6,7 @@
           :src="imageSrc"
           height="312"
           width="312"
-          class="rounded-full p-2 bg-gradient-to-r from-sky-500 to-sky-600 dark:(from-white to-sky-50)"
+          class="rounded-full p-2 bg-gradient-to-r from-sky-500 to-sky-600 dark:(from-sky-200 to-sky-500)"
         />
       </figure>
       <div class="w-1/2">
@@ -26,5 +26,5 @@ const props = defineProps({
     type: String,
   },
 });
-const imageSrc = computed(() => resolveAssetUrl(props.introImage));
+const imageSrc = computed(() => resolveAssetUrl(props?.introImage ?? ""));
 </script>

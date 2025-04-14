@@ -4,7 +4,7 @@
     <div class="my-auto">
       <slot />
     </div>
-    <LayoutFooter :website="website" :bsky="bsky" />
+    <LayoutFooter :github="github" :bsky="bsky" :email="email" />
   </div>
 </template>
 
@@ -19,7 +19,13 @@ const props = defineProps({
   website: {
     type: String,
   },
+  github: {
+    type: String,
+  },
   bsky: {
+    type: String,
+  },
+  email: {
     type: String,
   },
 });

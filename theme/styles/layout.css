@@ -29,15 +29,6 @@
     @apply select-text;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-bold font-title bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-sky-600 dark:(from-white to-sky-50);
-  }
-
   h1 {
     @apply text-4xl mb-4;
   }
@@ -48,6 +39,15 @@
 
   h3 {
     @apply text-lg uppercase tracking-widest font-500;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold font-title bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-sky-500 dark:(from-sky-500 to-sky-200);
   }
 
   p:not(.mb-0) {
