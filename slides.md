@@ -1,6 +1,6 @@
 ---
 # You can also start simply with 'default'
-theme: seriph
+theme: ./theme
 # some information about your slides (markdown enabled)
 title: AI for Teams - Smart Adoption Not Blind FOMO
 info: |
@@ -20,281 +20,407 @@ transition: slide-left
 exportFilename: smart-ai-adoption
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+colorSchema: auto
 ---
 
 # AI for Teams - Smart Adoption Not Blind FOMO
-
-### John Crosby
-
-#### Principal Engineer, Client Engineering
-
-#### MLB
-
-<div class="abs-br m-6 text-xl">
-  <a href="https://github.com/jcrosby/smart-ai-adoption" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
 
 <!--
 # AI for Teams - Smart Adoption Not Blind FOMO
 -->
 
 ---
-layout: cover
+layout: intro
+introImage: /images/john-crosby.jpg
+bsky: jcc
 ---
 
-# AI won’t take your job — someone using it smarter will.
+# John Crosby
 
-<!--
-- Hook: “AI won’t take your job — someone using it smarter will.”
-- Quick audience check:
-  - Who has experimented with AI?
-  - Who feels overwhelmed by the AI hype?
-  - Who is dealing with "AI FOMO" i.e. "We need to do AI now!"?
-- The AI landscape: Why everyone is talking about it and why FOMO isn’t a strategy.
--->
+## Principal Engineer, Client Engineering at MLB
 
 ---
-layout: cover
+layout: new-section
+sectionImage: /images/smart-vs-fomo-chatgpt.png
+imageWidth: 512
+imageHeight: 341
 ---
 
-# AI Myths & Misconceptions
+# Navigating the AI Wave in Software Development
 
-<!--
-- What AI **is** and **isn’t** (brief overview of LLMs, generative AI, automation)
-- Common myths:
-  - “AI will do everything for you.”
-  - “AI is a silver bullet that makes work faster and easier.”
-  - “AI will replace software engineers.”
-  - “If we don’t adopt AI now, we’ll fall behind.”
-- Reality check: AI **augments**, not replaces—unless you don’t learn how to use it.
--->
+## Smart Adoption vs. Blind FOMO
 
 ---
-layout: cover
+layout: default
 ---
 
-# Smart AI Adoption: How to Evaluate AI for Your Team
+# The Current Landscape
 
-## Five questions to ask
-
-<!--
-1. Does this AI tool solve a real problem, or is it just “cool”?
-2. How does it impact efficiency vs. quality?
-3. What are the risks (bias, security, ethics)?
-4. Can we trust the outputs?
-5. How does it fit into our existing workflows?
--->
+1. The software development world is experiencing rapid change due to AI advancements - especially in with LLMs and generative AI.
+2. Many developers and organizations are experimenting with or using AI tools in their workflows.
+3. Applications span the Software Development Life Cycle, from coding to deployment.
+4. Teams may feel overwhelmed by the hype and the sheer volume of available tools.
+5. The pressure to "do something with AI" can lead to rushed decisions and poor outcomes.
+6. The challenge is to navigate this landscape wisely, avoiding the pitfalls of blind FOMO while harnessing the potential of AI.
 
 ---
-layout: center
+layout: default
 ---
 
-# Does this AI tool solve a real problem, or is it just ‘cool’?
+# The Dual Edge: Opportunity vs. Hype
 
-<!--
-- **Key Considerations:**
-  - Clearly identify the problem or opportunity the AI is meant to address.
-  - Determine measurable success criteria (e.g., reduced customer wait times, improved detection rates).
-  - Collaborate with internal stakeholders to confirm the value and relevance of the identified problem.
--->
-
----
-layout: center
----
-
-# How does it impact efficiency vs. quality?
-
-<!--
-- **Key Considerations:**
-  - Understand whether the AI accelerates workflows (e.g., automated data entry) or if it can genuinely enhance quality (e.g., better predictions or improved insights).
-  - Evaluate the trade-offs: speeding up a process could cause quality issues if the AI isn’t properly calibrated.
--->
+- **Opportunity:** AI offers benefits like enhanced productivity, improved code quality, faster development cycles, and potential for innovation.
+- **Risk:** AI project failure rates remain high due to flawed adoption strategies.
+- **Common Pitfalls:**
+  - Lack of clear goals, no coherent strategy, neglecting data readiness, and "Blind FOMO".
+  - Pressure to "do something with AI" can exacerbate these issues.
 
 ---
-layout: center
+layout: default
 ---
 
-# What are the risks (bias, security, ethics)?
+# Smart Adoption vs. Blind FOMO: The Core Difference
 
-<!--
-- **Key Considerations:**
-  - Assess known data biases or algorithmic blind spots that might lead to unfair outcomes.
-  - Ensure the tool meets privacy and security standards, especially when handling sensitive information.
-  - Evaluate the ethical implications: Does the AI’s operation comply with legal standards and organizational values?
--->
+- **Smart Adoption:** Deliberate, strategic approach focused on solving specific problems and achieving measurable improvements. Involves learning and assessment before significant investment.
+- **Blind FOMO:** Reactive, technology-centric adoption driven by hype rather than a specific problem. Often skips crucial learning and assessment.
+- **How AI is adopted is more critical than whether it is adopted.**
 
 ---
-layout: center
+layout: new-section
+sectionImage: /images/LEAP.png
+imageWidth: 512
+imageHeight: 341
 ---
 
-# Can we trust the outputs?
+# Introducing the LEAP Framework: A Practical Compass
 
-<!--
-- **Key Considerations:**
-  - Validate accuracy through testing, pilot programs, or external audits.
-  - Look into the AI’s “explainability” features: can the system provide insight into how it arrived at certain decisions?
-  - Implement ongoing performance monitoring and include human oversight in critical decision points.
--->
+## Learn, Experiment, Assess, Propagate/Plan
 
 ---
-layout: center
+layout: default
 ---
 
-# How does it fit into our existing workflows?
+# LEAP: A Structured Approach
 
-<!--
-- **Key Considerations:**
-  - Determine if current systems need to be modified or replaced to support the AI tool.
-  - Engage with frontline users early to identify potential frictions or training needs.
-  - Plan for ongoing technical support and updates.
--->
-
----
-layout: cover
----
-
-# Red Flags to Watch For
+- LEAP is designed to guide teams through AI adoption wisely.
+- Focuses on maximizing value while mitigating risks.
+- Encourages a shift from reactive FOMO to proactive, strategic adoption.
+- Emphasizes iterative progress and critical evaluation.
+- Provides a sustainable and effective structure for AI efforts.
 
 ---
-layout: center
+layout: new-section
+sectionImage: /images/core-principles.jpg
 ---
 
-# Real Problem vs. “Cool Factor"
+# Core Principles of Effective AI Adoption
 
-<!--
-1. **Vague Use Cases:** No one can articulate a clear, tangible problem the AI will solve.
-2. **Hype-Driven Adoption:** The primary motive is “everyone else is doing it,” rather than solving a real need.
-3. **No Clear KPIs:** Teams lack measurable indicators for success (e.g., efficiency gains, error reduction).
--->
+## Foundational to Smart Adoption and LEAP
 
 ---
-layout: center
+layout: default
 ---
 
-# Efficiency vs. Quality
+# Six Core Principles
 
-<!--
->
-1. **Overemphasis on Speed Alone:** All focus is on faster processes, with little consideration for accuracy or effectiveness.
-2. **Hidden Quality Costs:** Small lapses in quality go unnoticed during early testing and can escalate after deployment.
--->
-
----
-layout: center
----
-
-# Risks (Bias, Security, Ethics)
-
-<!--
-1. **Unverified Data Sources:** Training data origins are unclear, raising concerns about accuracy or bias.
-2. **Weak Security Protocols:** No transparent plan for preventing data breaches or securing sensitive information.
-3. **No Ethical Guidelines:** No framework to address potential algorithmic discrimination or misuse of the tool.
--->
+- **Strategic Alignment:** AI initiatives must solve specific problems aligned with business goals. Define _why_ before _what_.
+- **Data Readiness & Governance:** Strong data quality, accessibility, security, and governance are essential. Poor data leads to failure.
+- **Skills & Culture:** Requires technical skills and a supportive culture encouraging experimentation and learning.
+- **Technology & Infrastructure:** Select the right tools compatible with existing workflows.
+- **Ethics & Responsibility:** Integrate ethical considerations (fairness, transparency, privacy, security) from the start.
+- **Iterative Approach:** Start with small pilots, learn, and scale successful initiatives.
 
 ---
-layout: center
+layout: new-section
 ---
 
-# Trust in Outputs
+# The LEAP Framework for Software Teams
 
-<!--
-1. **Black-Box Models with No Explanation:** The AI’s decision-making process is opaque, making it hard to diagnose errors or biases.
-2. **No Mechanism for Verification:** There’s no systematic way to check or replicate results for accuracy.
-3. **Limited Testing:** The tool is rolled out broadly with minimal piloting or staged deployment.
--->
+## Actionable Steps for Smart Adoption
 
 ---
-layout: center
----
-
-# Does it Fit Into Existing Workflows
-
-<!--
-1. **Major Workflow Disruption:** Implementation requires an overhaul of current systems, risking low user adoption and productivity dips.
-1. **Inadequate User Training:** End users or frontline teams are not sufficiently prepared to integrate AI into their daily tasks.
-1. **Lack of IT/Operations Readiness:** No clear plan for data management, software compatibility, or ongoing maintenance and support.
--->
-
----
-layout: cover
----
-
-# AI Evaluation <br/> The LEAP Framework
-
-<!--
-- Distilling the Rubric into four key repeatable steps:
-  1. Learn
-  2. Evaluate
-  3. Apply
-  4. Practice
--->
-
----
-layout: center
+layout: default
 ---
 
 # LEARN
 
-1. Gain a realistic view of AI’s capabilities and limitations.
-2. Understand basic AI concepts (e.g., machine learning, natural language processing, data requirements).
-3. Educate team members on where AI genuinely excels and where human expertise remains critical.
+- **Understand AI capabilities and limitations**.
+- **Activities:**
+  - Identify pain points in the SDLC.
+  - Research relevant AI tools and advancements.
+  - Assess team skills and identify gaps.
+  - Evaluate data availability and quality.
+  - Consider ethical and security implications.
+  - Define **SMART goals** for experiments.
+- **Output:** Prioritized use cases, readiness assessment, defined success metrics.
 
 ---
-layout: center
+layout: default
 ---
 
-# EVALUATE
+# EXPERIMENT
 
-1. Conduct a thorough needs assessment to verify the AI solution’s alignment with real-world problems.
-2. Examine vendors or in-house solutions using the five critical questions outlined above.
-3. Weigh the costs of adoption against the expected benefits; consider pilot programs to gather early evidence of effectiveness.
+- Focus on small-scale, controlled pilots to test hypotheses.
+- **Activities:**
+  - Select a low-risk pilot project.
+  - Choose specific AI tool/model.
+  - Develop and execute a prototype or limited integration.
+  - Gather quantitative and qualitative feedback.
+- **Output:** Working prototype, performance data, developer feedback, lessons learned.
+- **Share:** Share your prototype, performance data, feedback, and those lessons learned.
 
----
-layout: center
----
-
-# APPLY
-
-1. Integrate the chosen AI tool into workflows with clear accountability measures and performance tracking.
-2. Monitor for unintended consequences (e.g., new security risks, emerging biases) and iterate quickly.
-3. Share best practices and lessons learned across teams to expand responsible AI adoption.
+## Experimenting and sharing is large part of expanding the usage and benefits of AI
 
 ---
-layout: center
+layout: default
 ---
 
-# PRACTICE
+# ASSESS
 
-1. Refine and iterate: Treat AI adoption as an ongoing, iterative process rather than a one-time event.
-2. Evaluate performance regularly: Gather user feedback and track KPIs to adjust configurations or training data.
-3. Encourage continuous learning: Keep the team updated on new AI developments, tools, and methods to maintain a forward-thinking approach.
+- Evaluation experiment outcomes rigorously to make informed decisions.
+- **Activities:**
+  - Evaluate results against SMART goals.
+  - Analyze ROI (benefits vs. costs).
+  - Assess impact on workflow, quality, productivity, satisfaction.
+  - Identify technical challenges and risks.
+  - Review ethical and security posture.
+  - Make a clear **GO/NO-GO/PIVOT** decision.
+- **Output:** Assessment report, clear decision, refined understanding of requirements and the results.
 
 ---
-layout: cover
+layout: default
+---
+
+# PIVOT
+
+- **If the experiment fails or needs adjustment, pivot to a new approach.**
+- **Activities:**
+  - Analyze failure points and gather feedback.
+  - Adjust goals, tools, or methods based on insights.
+  - Reassess readiness and risks.
+  - Iterate on the experiment with a new focus or move to another experiment.
+- **Output:** Revised experiment plan, updated goals, and a new approach to testing.
+
+---
+layout: default
+---
+
+# PROPAGATE
+
+- Strategically scale successful AI applications.
+- **Activities:**
+  - Develop a detailed rollout roadmap.
+  - Identify infrastructure and tooling changes.
+  - Create and execute training programs.
+  - Establish governance policies and monitoring.
+  - Implement change management practices.
+  - Continuously monitor performance and ethical implications.
+- **Output:** Scaled AI solution, governance structures, ongoing monitoring plan, up-skilled team.
+
+---
+layout: new-section
+sectionImage: /images/exec-fomo.png
+---
+
+# Analogy - Blind FOMO
+
+## Mandated Generative AI for Code
+
+---
+layout: default
+---
+
+# Blind FOMO - Skipped LEAP Steps
+
+- **Skipped Learn:** Vague goal ("increase velocity"), ignored readiness (skills, codebase, IP), focused on tech (GenAI) over specific problems.
+- **Skipped Experiment/Assess:** Underestimated verification needs, overlooked accuracy and security risks, ignored domain/context limitations.
+- **Failed Propagate/Plan:** Resulted in chaos, inconsistent adoption, decreased productivity, potential security issues, no way to measure impact.
+
+---
+layout: new-section
+sectionImage: /images/five-questions-chatgpt.png
+---
+
+# Smart AI Adoption: How to Evaluate AI for Your Team
+
+## Five Questions to Ask
+
+---
+layout: new-section
+sectionImage: /images/solve-real-problems-gemini.jpeg
+---
+
+# Question 1: Does this AI tool solve a **real problem**, or is it just ‘cool’?
+
+- **Aligns with Strategic Alignment:** Ensure the AI addresses a specific bottleneck or pain point.
+- **Red Flag:** Vague use cases with no clear, tangible problem.
+- **LEAP - Learn:** Identify team bottlenecks and potential AI solutions.
+
+---
+layout: new-section
+sectionImage: /images/efficiency-quality-matrix-chatgpt.png
+---
+
+# Question 2: How does it impact **efficiency vs. quality**?
+
+- **Weigh the trade-offs:** Focus solely on speed can hide quality costs.
+- **Red Flag:** Overemphasis on speed alone without considering accuracy.
+- **LEAP - Assess:** Analyze the impact on workflow and code quality.
+
+---
+layout: new-section
+sectionImage: /images/risks.png
+#imageWidth: 1024
+#imageHeight: 1536
+---
+
+# Question 3: What are the **risks** (bias, security, ethics)?
+
+- **Integrate Ethics & Responsibility:** Consider potential biases, security vulnerabilities, and ethical implications.
+- **Red Flags:** Unverified data, weak security, no ethical guidelines.
+- **LEAP - Learn & Assess:** Proactively consider risks and evaluate the ethical posture.
+
+---
+layout: default
+---
+
+# Question 4: Can we **trust the outputs**?
+
+- **Emphasize Verification:** Understand AI's decision-making process and have mechanisms to verify its results.
+- **Red Flags:** Black-box models, no verification process, limited testing.
+- **LEAP - Experiment & Assess:** Gather data and feedback on the reliability of AI outputs.
+
+---
+layout: default
+---
+
+# Question 5: How does it fit into our **existing workflows**?
+
+- **Technology & Infrastructure:** Ensure compatibility and minimize disruption.
+- **Red Flags:** Major workflow disruption, inadequate training, lack of IT/operations readiness.
+- **LEAP - Propagate/Plan:** Plan for integration and necessary changes.
+
+---
+layout: image-right
+image: /images/red-flags-gemini.jpeg
+---
+
+# Red Flags to Watch For
+
+- **Hype-driven adoption**
+- **Vague use cases**
+- **Overemphasis on speed alone**
+- **No clear KPIs**
+- **Hidden quality costs**
+- **Unverified data sources**
+- **Weak security protocols**
+- **No ethical guidelines**
+- **Black-box models with no explanation**
+- **Lack of operational readiness**
+- **No mechanism for verification**
+- **Limited testing**
+- **Major workflow disruption**
+- **Inadequate user training**
+
+---
+layout: new-section
 ---
 
 # Practical AI Use Cases for Teams
 
-<!--
-- **Product Managers**: Research, decision-making, roadmap planning
-- **Designers**: User research, automation, accessibility improvements
-- **Developers**: AI pair programming, debugging, automation
-- How cross-functional teams can work together to **leverage AI without breaking workflows**
--->
+## Leveraging AI Across Concerns
 
 ---
-layout: cover
+layout: default
+---
+
+# AI in Requirements Engineering (RE)
+
+- NLP/LLMs for eliciting, analyzing, and validating requirements.
+- Generating user stories and initial system models.
+- **LEAP:**
+  - **Learn:** Analyze requirements for ambiguity using NLP.
+  - **Experiment:** Use NLP to analyze a small set of user stories.
+  - **Assess:** Gather feedback on improved clarity.
+  - **Propagate/Plan:** Scale use of validated NLP tools.
+
+---
+layout: default
+---
+
+# AI-Assisted Code
+
+- Tools like GitHub Copilot, Gemini Code Assist, Amazon Q, & Claude Code.
+- Capabilities: code generation, explanation, refactoring suggestions, bug identification.
+- **LEAP:**
+  - **Learn:** Research tools and their security implications.
+  - **Experiment:** Pilot with a small team on specific tasks.
+  - **Assess:** Evaluate code quality and developer productivity.
+  - **Propagate/Plan:** Roll out with training and best practices.
+
+---
+layout: default
+---
+
+# AI-Driven QA
+
+- LLMs and specialized models for generating unit, integration, and end-to-end tests.
+- AI for GUI testing, fuzz testing, visual regression, bug detection.
+- **LEAP:**
+  - **Learn:** Identify repetitive testing tasks.
+  - **Experiment:** Use AI to generate tests for non-critical components.
+  - **Assess:** Measure code coverage and effort required.
+  - **Propagate/Plan:** Integrate successful techniques into QA workflows.
+
+---
+layout: default
+---
+
+# AI in DevOps
+
+- Automation of CI/CD, intelligent monitoring, anomaly detection, predictive failure analysis.
+- MLOps platforms for managing ML pipelines.
+- **LEAP:**
+  - **Learn:** Identify manual DevOps bottlenecks.
+  - **Experiment:** Automate deployment of a microservice.
+  - **Assess:** Measure impact on deployment time and reliability.
+  - **Propagate/Plan:** Expand automation across more services.
+
+---
+layout: default
+---
+
+# AI-Assisted Project Management and Reporting
+
+- AI for task prioritization, resource allocation, and risk management.
+- Automated reporting and status updates.
+- **LEAP:**
+  - **Learn:** Identify repetitive reporting tasks.
+  - **Experiment:** Use AI to generate reports for a small project.
+  - **Assess:** Measure time saved and accuracy.
+  - **Propagate/Plan:** Integrate successful techniques into PM workflows.
+
+---
+layout: default
+---
+
+# AI for Security Analysis
+
+- Enhanced threat detection, log analysis, vulnerability assessment, automated Security Operations Center (SOC) tasks.
+- AI tools for code vulnerability scanning.
+- **LEAP:**
+  - **Learn:** Research AI-powered security tools.
+  - **Experiment:** Run Static Application Security Testing (SAST) tools on a feature branch.
+  - **Assess:** Analyze false positive/negative rates.
+  - **Propagate/Plan:** Integrate validated tools into the DevSecOps pipeline.
+
+---
+layout: new-section
 ---
 
 # Communicating AI Strategy to Leadership
 
-<!--
-- How to push back against **"We need AI because everyone else is using it!"**
-- Framing AI as a tool, not a trend: Speaking the language of leadership
-- Realistic expectations: AI as an **incremental improvement**, not a revolution overnight
--->
+## Emphasize Value, Risk Management, and the LEAP Framework
 
 ---
 layout: cover
@@ -302,10 +428,62 @@ layout: cover
 
 # Conclusion & Key Takeaways
 
+## Embrace AI Thoughtfully and Strategically
+
+---
+layout: default
+---
+
+# Key Principles for Smart Integration
+
+- **Strategic Alignment:** Solve real problems with clear goals.
+- **Iterative Experimentation:** Start small and gather evidence.
+- **Rigorous Assessment:** Evaluate benefits and risks objectively.
+- **Focus on Value:** Prioritize tangible improvements.
+- **Continuous Learning:** Adapt to the evolving AI landscape.
+
+---
+layout: default
+---
+
+# The Enduring Value of LEAP
+
+- A practical, repeatable process for wise AI adoption.
+- **Learn** thoroughly before acting.
+- **Experiment** in a controlled manner.
+- **Assess** results critically.
+- **Propagate/Plan** successful initiatives sustainably.
+- Integrates data, skills, ethics, and governance.
+- Fits naturally with agile development.
+
+---
+layout: default
+---
+
+# Call to Action
+
+- Move beyond passive observation of AI.
+- **Initiate a 'Learn' cycle:** Identify a pressing team challenge.
+- Research potential AI solutions.
+- Define a clear goal for a small experiment.
+- Start the LEAP cycle and embrace the learning process.
+- Chart a course for wise AI adoption that delivers real value.
+
+## Share your successes and failures!
+
+---
+layout: end
+bsky: jcc
+email: john@hellocrosby.com
+github: https://github.com/jcrosby/smart-ai-adoption
+---
+
+# Thank You!
+
 <!--
-- AI is a tool—**how you use it determines its value**
-- Smart adoption beats blind FOMO **every time**
-- **Final rubric reminder:
-  - Ask the questions!
-  - ** Learn, evaluate, apply (in that order!)**
+<div class="m-6 text-2xl">
+  <a href="https://github.com/jcrosby/smart-ai-adoption" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-github />
+  </a>
+</div>
 -->

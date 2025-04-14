@@ -11,14 +11,17 @@
   "dependencies": {
     "@slidev/cli": "^51.2.2",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
-    "slidev-theme-light-icons": "^1.0.2",
     "slidev-theme-unicorn": "^1.1.2",
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@unocss/preset-mini": "66.1.0-beta.10",
+    "@unocss/preset-wind3": "66.1.0-beta.10",
     "playwright-chromium": "^1.51.0",
     "prettier": "^3.5.2",
     "prettier-plugin-slidev": "^1.0.5"
+  },
+  "pnpm": {
+    "overrides": {}
   }
 }
