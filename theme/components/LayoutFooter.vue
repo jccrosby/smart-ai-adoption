@@ -1,7 +1,7 @@
 <template>
   <footer
     v-if="website || bsky || github || email"
-    class="mt-auto flex justify-between w-full text-sky-500 dark:text-white"
+    class="mt-auto flex justify-between w-full text-purple-800 dark:text-white"
   >
     <p v-if="github" class="mb-0 text-2xl">
       <a href="github" target="_blank" class="slidev-icon-btn">

@@ -1,12 +1,12 @@
 <template>
   <default class="intro">
     <div class="flex items-center">
-      <figure class="w-1/2 px-12">
+      <figure class="w-1/2 px-18">
         <img
           :src="imageSrc"
           height="312"
           width="312"
-          class="rounded-full p-2 bg-gradient-to-r from-sky-500 to-sky-600 dark:(from-sky-200 to-sky-500)"
+          class="rounded-full p-5 bg-gradient-to-r from-red-400 to-red-500 dark:(from-purple-600 to-purple-800)"
         />
       </figure>
       <div class="w-1/2">

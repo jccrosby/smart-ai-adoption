@@ -12,7 +12,7 @@ import Default from "../layouts/default.vue";
 
 <style>
 .slidev-layout.end {
-  @apply bg-gradient-to-r from-sky-500 to-sky-600 text-white;
+  @apply bg-gradient-to-r from-red-400 to-red-500 text-white;
 }
 
 .slidev-layout.end *,

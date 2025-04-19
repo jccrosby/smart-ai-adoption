@@ -305,7 +305,7 @@ layout: image-right
 image: /images/red-flags-gemini.jpeg
 ---
 
-# Red Flags to Watch For
+## Red Flags to Watch For
 
 - **Hype-driven adoption**
 - **Vague use cases**
