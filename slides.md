@@ -87,14 +87,14 @@ layout: default
 
 ---
 layout: new-section
-sectionImage: /images/LEAP.png
+sectionImage: /images/LEAP-cycle.png
 imageWidth: 512
-imageHeight: 341
+imageHeight: 512
 ---
 
 # Introducing the LEAP Framework: A Practical Compass
 
-## Learn, Experiment, Assess, Propagate/Plan
+## Learn, Experiment, Assess, Propagate/Pivot
 
 ---
 layout: default
@@ -115,7 +115,7 @@ sectionImage: /images/core-principles.jpg
 
 # Core Principles of Effective AI Adoption
 
-## Foundational to Smart Adoption and LEAP
+## Foundational Principals to Smart Adoption & LEAP
 
 ---
 layout: default
@@ -123,9 +123,9 @@ layout: default
 
 # Six Core Principles
 
-- **Strategic Alignment:** AI initiatives must solve specific problems aligned with business goals. Define _why_ before _what_.
+- **Strategic:** AI initiatives must solve specific problems aligned with business goals. Define _why_ before _what_.
 - **Data Readiness & Governance:** Strong data quality, accessibility, security, and governance are essential. Poor data leads to failure.
-- **Skills & Culture:** Requires technical skills and a supportive culture encouraging experimentation and learning.
+- **Skills & Culture:** Requires technical skills and a supportive culture encouraging experimentation, sharing, and learning.
 - **Technology & Infrastructure:** Select the right tools compatible with existing workflows.
 - **Ethics & Responsibility:** Integrate ethical considerations (fairness, transparency, privacy, security) from the start.
 - **Iterative Approach:** Start with small pilots, learn, and scale successful initiatives.
@@ -134,7 +134,7 @@ layout: default
 layout: new-section
 ---
 
-# The LEAP Framework for Software Teams
+# The LEAP Framework for Teams
 
 ## Actionable Steps for Smart Adoption
 
@@ -146,12 +146,17 @@ layout: default
 
 - **Understand AI capabilities and limitations**.
 - **Activities:**
-  - Identify pain points in the SDLC.
+  - Identify pain points in your process.
   - Research relevant AI tools and advancements.
   - Assess team skills and identify gaps.
   - Evaluate data availability and quality.
   - Consider ethical and security implications.
-  - Define **SMART goals** for experiments.
+  - Define **SMART** goals for experiments.
+    1.  Specific
+    2.  Measurable
+    3.  Achievable
+    4.  Relevant
+    5.  Time-bound
 - **Output:** Prioritized use cases, readiness assessment, defined success metrics.
 
 ---
@@ -161,7 +166,7 @@ layout: default
 # EXPERIMENT
 
 - Focus on small-scale, controlled pilots to test hypotheses.
-- **Activities:**
+- **Activities**
   - Select a low-risk pilot project.
   - Choose specific AI tool/model.
   - Develop and execute a prototype or limited integration.
@@ -169,7 +174,7 @@ layout: default
 - **Output:** Working prototype, performance data, developer feedback, lessons learned.
 - **Share:** Share your prototype, performance data, feedback, and those lessons learned.
 
-## Experimenting and sharing is large part of expanding the usage and benefits of AI
+## Experimenting and sharing is a large part of expanding the usage and benefits of AI
 
 ---
 layout: default
@@ -446,12 +451,13 @@ layout: default
 layout: default
 ---
 
-# The Enduring Value of LEAP
+# The Value of LEAP
 
-- A practical, repeatable process for wise AI adoption.
-- **Learn** thoroughly before acting.
+- A simple, practical, repeatable process for wise AI adoption.
+- **Learn** before acting.
 - **Experiment** in a controlled manner.
 - **Assess** results critically.
+- **Share** the results and lessons learned
 - **Propagate/Plan** successful initiatives sustainably.
 - Integrates data, skills, ethics, and governance.
 - Fits naturally with agile development.
@@ -468,6 +474,12 @@ layout: default
 - Define a clear goal for a small experiment.
 - Start the LEAP cycle and embrace the learning process.
 - Chart a course for wise AI adoption that delivers real value.
+
+## How you apply this is up to you and your team(s)
+
+- A single team to explore
+- Multiple teams based on context
+- Many teams based on their experience and responsibility
 
 ## Share your successes and failures!
 
