@@ -32,7 +32,7 @@ colorSchema: auto
 ---
 layout: intro
 introImage: /images/john-crosby.jpg
-bsky: jcc
+bsky: jccrosby.com
 ---
 
 # John Crosby
@@ -549,7 +549,7 @@ Thank you for your time today. I'm happy to take questions and discuss specific 
 
 ---
 layout: end
-bsky: jcc
+bsky: jccrosby.com
 ---
 
 # Thank You!

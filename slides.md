@@ -32,7 +32,7 @@ colorSchema: auto
 ---
 layout: intro
 introImage: /images/john-crosby.jpg
-bsky: jcc
+bsky: jccrosby.com
 ---
 
 # John Crosby
@@ -221,7 +221,7 @@ layout: two-cols-header
 - Assess impact on workflow, quality, productivity, satisfaction.
 - Identify technical challenges and risks.
 - Review ethical and security posture.
-- Make a clear **GO/NO-GO/PIVOT** decision.
+- Make a clear **Go/No-Go/Pivot** decision.
 
 ::right::
 
@@ -550,12 +550,12 @@ layout: default
 
 ---
 layout: end
-bsky: jcc
+bsky: jccrosby.com
 email: john@hellocrosby.com
 github: https://github.com/jcrosby/smart-ai-adoption
 ---
 
-# Thank You!
+<div class="text-8xl font-bold">Thank You!</div>
 
 <!--
 <div class="m-6 text-2xl">
