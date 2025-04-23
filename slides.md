@@ -19,7 +19,7 @@ fonts:
 transition: slide-left
 exportFilename: smart-ai-adoption
 # enable MDC Syntax: https://sli.dev/features/mdc
-mdc: true
+mdc: false
 colorSchema: auto
 ---
 
@@ -37,7 +37,7 @@ bsky: jcc
 
 # John Crosby
 
-## Principal Engineer, Client Engineering at MLB
+## Principal Engineer, Client Engineering @ MLB
 
 ---
 layout: new-section
@@ -52,6 +52,7 @@ imageHeight: 341
 
 ---
 layout: default
+image: /images/ai-landscape.png
 ---
 
 # The Current Landscape
@@ -92,25 +93,24 @@ imageWidth: 512
 imageHeight: 512
 ---
 
-# Introducing the LEAP Framework: A Practical Compass
+# The LEAP Framework: A Structured Approach
 
-## Learn, Experiment, Assess, Propagate/Pivot
+## Learn -> Experiment -> Assess -> Pivot/Propagate
 
 ---
 layout: default
 ---
 
-# LEAP: A Structured Approach
-
-- LEAP is designed to guide teams through AI adoption wisely.
-- Focuses on maximizing value while mitigating risks.
+# LEAP
+- Designed to guide teams through AI adoption wisely.
+- Focused on maximizing value while mitigating risks.
 - Encourages a shift from reactive FOMO to proactive, strategic adoption.
 - Emphasizes iterative progress and critical evaluation.
 - Provides a sustainable and effective structure for AI efforts.
 
 ---
 layout: new-section
-sectionImage: /images/core-principles.jpg
+sectionImage: /images/core-principles.jpeg
 ---
 
 # Core Principles of Effective AI Adoption
@@ -128,7 +128,7 @@ layout: default
 - **Skills & Culture:** Requires technical skills and a supportive culture encouraging experimentation, sharing, and learning.
 - **Technology & Infrastructure:** Select the right tools compatible with existing workflows.
 - **Ethics & Responsibility:** Integrate ethical considerations (fairness, transparency, privacy, security) from the start.
-- **Iterative Approach:** Start with small pilots, learn, and scale successful initiatives.
+- **Iterative Approach:** Start with small pilots, learn, then scale those successful experiments.
 
 ---
 layout: new-section
@@ -138,89 +138,154 @@ layout: new-section
 
 ## Actionable Steps for Smart Adoption
 
+
+<!--
+- Time to dive in to each of the LEAP steps. The first being Learn.
+-->
+
 ---
-layout: default
+layout: two-cols-header
 ---
 
 # LEARN
 
-- **Understand AI capabilities and limitations**.
-- **Activities:**
-  - Identify pain points in your process.
-  - Research relevant AI tools and advancements.
-  - Assess team skills and identify gaps.
-  - Evaluate data availability and quality.
-  - Consider ethical and security implications.
-  - Define **SMART** goals for experiments.
-    1.  Specific
-    2.  Measurable
-    3.  Achievable
-    4.  Relevant
-    5.  Time-bound
-- **Output:** Prioritized use cases, readiness assessment, defined success metrics.
+## Understand AI capabilities and limitations
+
+::left::
+
+# Activities
+
+- Research AI tools and advancements.
+- Identify pain points in your process.
+- Assess team skills.
+- Evaluate data availability and quality.
+- Consider ethical and security implications.
+- Define **SMART** goals for experiments.
+
+::right::
+
+# Output
+
+- Prioritized use cases.
+- Readiness assessment.
+- Defined success metrics.
+
 
 ---
-layout: default
+layout: two-cols-header
 ---
 
 # EXPERIMENT
 
-- Focus on small-scale, controlled pilots to test hypotheses.
-- **Activities**
-  - Select a low-risk pilot project.
-  - Choose specific AI tool/model.
-  - Develop and execute a prototype or limited integration.
-  - Gather quantitative and qualitative feedback.
-- **Output:** Working prototype, performance data, developer feedback, lessons learned.
-- **Share:** Share your prototype, performance data, feedback, and those lessons learned.
+## Focus on small-scale, controlled pilots to test hypotheses.
 
-## Experimenting and sharing is a large part of expanding the usage and benefits of AI
+::left::
+# Activities
+- Select a low-risk pilot project.
+- Choose specific AI tool/model.
+- Develop and execute a prototype or limited integration.
+- Gather quantitative and qualitative feedback.
+
+::right::
+
+# Output
+
+- Working prototype.
+- Performance data.
+- Developer feedback.
+- Lessons learned.
+
+## Make sure to **share** your results and lessons learned.
+
 
 ---
-layout: default
+layout: statement
+---
+
+# **Experimenting** and **sharing** is a large part of expanding the usage and benefits of AI
+
+---
+layout: two-cols-header
 ---
 
 # ASSESS
 
-- Evaluation experiment outcomes rigorously to make informed decisions.
-- **Activities:**
-  - Evaluate results against SMART goals.
-  - Analyze ROI (benefits vs. costs).
-  - Assess impact on workflow, quality, productivity, satisfaction.
-  - Identify technical challenges and risks.
-  - Review ethical and security posture.
-  - Make a clear **GO/NO-GO/PIVOT** decision.
-- **Output:** Assessment report, clear decision, refined understanding of requirements and the results.
+## Evaluation experiment outcomes rigorously to make informed decisions.
+
+::left::
+
+# Activities
+
+- Evaluate results against SMART goals.
+- Analyze ROI (benefits vs. costs).
+- Assess impact on workflow, quality, productivity, satisfaction.
+- Identify technical challenges and risks.
+- Review ethical and security posture.
+- Make a clear **GO/NO-GO/PIVOT** decision.
+
+::right::
+
+# Output
+
+- Refined understanding of requirements and the results.
+- An assessment report.
+- A Clear decision.
 
 ---
 layout: default
+---
+
+<h1 class="absolute left-4 pl-30">PIVOT</h1>
+<h1 class="absolute right-6 pr-30">PROPAGATE</h1>
+
+---
+layout: two-cols-header
 ---
 
 # PIVOT
 
-- **If the experiment fails or needs adjustment, pivot to a new approach.**
-- **Activities:**
-  - Analyze failure points and gather feedback.
-  - Adjust goals, tools, or methods based on insights.
-  - Reassess readiness and risks.
-  - Iterate on the experiment with a new focus or move to another experiment.
-- **Output:** Revised experiment plan, updated goals, and a new approach to testing.
+## If the experiment fails or needs adjustment
+
+::left::
+
+# Activities
+- Analyze failure points and gather feedback.
+- Adjust goals, tools, or methods based on insights.
+- Reassess readiness and risks.
+- Iterate on the experiment with a new focus or move to another experiment.
+
+::right::
+
+# Output
+- Revised experiment plan.
+- Updated goals.
+- A new approach to testing.
 
 ---
-layout: default
+layout: two-cols-header
 ---
 
 # PROPAGATE
 
-- Strategically scale successful AI applications.
-- **Activities:**
+## Strategically scale successful AI applications.
+
+::left::
+
+# Activities
   - Develop a detailed rollout roadmap.
   - Identify infrastructure and tooling changes.
   - Create and execute training programs.
   - Establish governance policies and monitoring.
   - Implement change management practices.
   - Continuously monitor performance and ethical implications.
-- **Output:** Scaled AI solution, governance structures, ongoing monitoring plan, up-skilled team.
+
+::right::
+
+# Output
+- A useable AI solution.
+- Maintenance & governance structures.
+- Ongoing monitoring plan.
+- Up-skilled team.
 
 ---
 layout: new-section
@@ -239,7 +304,7 @@ layout: default
 
 - **Skipped Learn:** Vague goal ("increase velocity"), ignored readiness (skills, codebase, IP), focused on tech (GenAI) over specific problems.
 - **Skipped Experiment/Assess:** Underestimated verification needs, overlooked accuracy and security risks, ignored domain/context limitations.
-- **Failed Propagate/Plan:** Resulted in chaos, inconsistent adoption, decreased productivity, potential security issues, no way to measure impact.
+- **Failed Pivot/Propagate:** Resulted in chaos, inconsistent adoption, decreased productivity, potential security issues, no way to measure impact.
 
 ---
 layout: new-section
@@ -252,7 +317,7 @@ sectionImage: /images/five-questions-chatgpt.png
 
 ---
 layout: new-section
-sectionImage: /images/solve-real-problems-gemini.jpeg
+sectionImage: /images/Q1-Solve-real-problems-gemini.jpeg
 ---
 
 # Question 1: Does this AI tool solve a **real problem**, or is it just ‘cool’?
@@ -263,7 +328,7 @@ sectionImage: /images/solve-real-problems-gemini.jpeg
 
 ---
 layout: new-section
-sectionImage: /images/efficiency-quality-matrix-chatgpt.png
+sectionImage: /images/Q2-Efficiency-quality-matrix-chatgpt.png
 ---
 
 # Question 2: How does it impact **efficiency vs. quality**?
@@ -272,21 +337,26 @@ sectionImage: /images/efficiency-quality-matrix-chatgpt.png
 - **Red Flag:** Overemphasis on speed alone without considering accuracy.
 - **LEAP - Assess:** Analyze the impact on workflow and code quality.
 
+
 ---
 layout: new-section
-sectionImage: /images/risks.png
+sectionImage: /images/Q3-Risks.png
 #imageWidth: 1024
 #imageHeight: 1536
 ---
 
-# Question 3: What are the **risks** (bias, security, ethics)?
+# Question 3: What are the **risks**?
 
+
+- Bias, Security, Ethics.
 - **Integrate Ethics & Responsibility:** Consider potential biases, security vulnerabilities, and ethical implications.
 - **Red Flags:** Unverified data, weak security, no ethical guidelines.
 - **LEAP - Learn & Assess:** Proactively consider risks and evaluate the ethical posture.
 
+
 ---
-layout: default
+layout: new-section
+sectionImage: /images/Q4-Verification.jpeg
 ---
 
 # Question 4: Can we **trust the outputs**?
@@ -296,14 +366,15 @@ layout: default
 - **LEAP - Experiment & Assess:** Gather data and feedback on the reliability of AI outputs.
 
 ---
-layout: default
+layout: new-section
+sectionImage: /images/Q5-Workflows.png
 ---
 
 # Question 5: How does it fit into our **existing workflows**?
 
 - **Technology & Infrastructure:** Ensure compatibility and minimize disruption.
 - **Red Flags:** Major workflow disruption, inadequate training, lack of IT/operations readiness.
-- **LEAP - Propagate/Plan:** Plan for integration and necessary changes.
+- **Propagate:** Roll out the changes or pivot to a new experiment.
 
 ---
 layout: image-right
@@ -312,20 +383,20 @@ image: /images/red-flags-gemini.jpeg
 
 ## Red Flags to Watch For
 
-- **Hype-driven adoption**
-- **Vague use cases**
-- **Overemphasis on speed alone**
-- **No clear KPIs**
-- **Hidden quality costs**
-- **Unverified data sources**
-- **Weak security protocols**
-- **No ethical guidelines**
-- **Black-box models with no explanation**
-- **Lack of operational readiness**
-- **No mechanism for verification**
-- **Limited testing**
-- **Major workflow disruption**
-- **Inadequate user training**
+- Hype-driven adoption
+- Vague use cases
+- Overemphasis on speed alone
+- No clear KPIs
+- Hidden quality costs
+- Unverified data sources
+- Weak security protocols
+- No ethical guidelines
+- Black-box models with no explanation
+- Lack of operational readiness
+- No mechanism for verification
+- Limited testing
+- Major workflow disruption
+- Inadequate user training
 
 ---
 layout: new-section
@@ -347,7 +418,7 @@ layout: default
   - **Learn:** Analyze requirements for ambiguity using NLP.
   - **Experiment:** Use NLP to analyze a small set of user stories.
   - **Assess:** Gather feedback on improved clarity.
-  - **Propagate/Plan:** Scale use of validated NLP tools.
+  - **Propagate:** Scale use of validated NLP tools.
 
 ---
 layout: default
@@ -361,7 +432,7 @@ layout: default
   - **Learn:** Research tools and their security implications.
   - **Experiment:** Pilot with a small team on specific tasks.
   - **Assess:** Evaluate code quality and developer productivity.
-  - **Propagate/Plan:** Roll out with training and best practices.
+  - **Propagate:** Roll out with training and best practices.
 
 ---
 layout: default
@@ -375,7 +446,7 @@ layout: default
   - **Learn:** Identify repetitive testing tasks.
   - **Experiment:** Use AI to generate tests for non-critical components.
   - **Assess:** Measure code coverage and effort required.
-  - **Propagate/Plan:** Integrate successful techniques into QA workflows.
+  - **Propagate:** Integrate successful techniques into QA workflows.
 
 ---
 layout: default
@@ -389,7 +460,7 @@ layout: default
   - **Learn:** Identify manual DevOps bottlenecks.
   - **Experiment:** Automate deployment of a microservice.
   - **Assess:** Measure impact on deployment time and reliability.
-  - **Propagate/Plan:** Expand automation across more services.
+  - **Propagate:** Expand automation across more services.
 
 ---
 layout: default
@@ -403,7 +474,7 @@ layout: default
   - **Learn:** Identify repetitive reporting tasks.
   - **Experiment:** Use AI to generate reports for a small project.
   - **Assess:** Measure time saved and accuracy.
-  - **Propagate/Plan:** Integrate successful techniques into PM workflows.
+  - **Propagate:** Integrate successful techniques into PM workflows.
 
 ---
 layout: default
@@ -417,7 +488,7 @@ layout: default
   - **Learn:** Research AI-powered security tools.
   - **Experiment:** Run Static Application Security Testing (SAST) tools on a feature branch.
   - **Assess:** Analyze false positive/negative rates.
-  - **Propagate/Plan:** Integrate validated tools into the DevSecOps pipeline.
+  - **Propagate:** Integrate validated tools into the DevSecOps pipeline.
 
 ---
 layout: new-section
@@ -457,10 +528,10 @@ layout: default
 - **Learn** before acting.
 - **Experiment** in a controlled manner.
 - **Assess** results critically.
-- **Share** the results and lessons learned
-- **Propagate/Plan** successful initiatives sustainably.
-- Integrates data, skills, ethics, and governance.
-- Fits naturally with agile development.
+- **Pivot** when necessary.
+- **Propagate** successful initiatives sustainably.
+
+## Don't forget to **share** your results and lessons learned.
 
 ---
 layout: default
@@ -469,17 +540,11 @@ layout: default
 # Call to Action
 
 - Move beyond passive observation of AI.
-- **Initiate a 'Learn' cycle:** Identify a pressing team challenge.
+- **Initiate a 'Learn' cycle ->** Identify a pressing team challenge.
 - Research potential AI solutions.
 - Define a clear goal for a small experiment.
 - Start the LEAP cycle and embrace the learning process.
 - Chart a course for wise AI adoption that delivers real value.
-
-## How you apply this is up to you and your team(s)
-
-- A single team to explore
-- Multiple teams based on context
-- Many teams based on their experience and responsibility
 
 ## Share your successes and failures!
 
