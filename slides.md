@@ -460,7 +460,7 @@ layout: statement
 # **Sharing** is an essential part of expanding the benefits of any effort like this.
 
 <!--
-- I think sharing what you're doing and how you're doing things along with the results and what you learned is a key tenet of any process like this.
+- I think sharing what you're doing and how you're doing it and what you've learned is key to any process like this.
 - Sharing can happen at any stage of the process.
 - The only rule is that you share.
 -->
@@ -472,10 +472,10 @@ sectionImage: /images/exec-fomo.png
 
 # Analogy - Blind FOMO
 
-## Mandated Generative AI for Code
+## Cursor: AI Tooling For Coding
 
 <!--
-- This is a little contrived to protect the innocent, but it is based on a real story.
+- This is a little contrived to protect the innocent, but it has roots based in a reality.
 - From Management: Basically - "Use Cursor to be more productive!" (Increase velocity)
   1. Cursor is a generative AI tool for code - "The AI Code Editor - Built to make you extraordinarily productive, Cursor is the best way to code with AI."
   2. The team was told to "check it out".
@@ -506,6 +506,8 @@ layout: default
 - **Failed Pivot/Propagate:** Resulted in chaos, inconsistent adoption, decreased productivity, potential security issues, no way to measure impact
 
 <!--
+When we try to apply LEAP to the Cursor "Experiment"
+
 - **Skipped Learn:**
   - Vague goal ("increase velocity")
   - Focused on tech (GenAI) over specific problems
@@ -534,8 +536,7 @@ sectionImage: /images/five-questions-chatgpt.png
 ## Five Questions to Ask
 
 <!--
-- I've been think about this a lot for our teams and have come up with five questions to ask when evaluating AI tools.
-- These questions are designed to help you evaluate the potential of AI tools and how they might fit into a LEAP cycle.
+- I've been thinking about how we might to evaluate tools in a consistent way and have come up with five questions to ask.
 -->
 
 ---
@@ -548,6 +549,8 @@ sectionImage: /images/Q1-Solve-real-problems-gemini.jpeg
 # Does it solve a **real problem**, or is it just "cool"?
 
 <!--
+Question 1 - Does it solve a **real problem**, or is it just "cool"?
+
 - **Aligns with Strategic Alignment:** Ensure the AI addresses a specific bottleneck or pain point.
 - **Red Flag:** Vague use cases with no clear, tangible problem.
 - **LEAP - Learn:** Identify team bottlenecks and potential AI solutions.
@@ -562,10 +565,13 @@ sectionImage: /images/Q2-Efficiency-quality-matrix-chatgpt.png
 # How does it impact **efficiency vs. quality**?
 
 <!--
+Question 2 - How does it impact **efficiency vs. quality**?
+
 **Quality vs. Efficiency:** Matrix to evaluate the trade-offs between efficiency and quality.
 
 - **Weigh the trade-offs:** For instance, a focus on speed alone can hide quality costs.
-- **Red Flag:** Overemphasis on speed alone without considering accuracy. ("Vibe coding")
+- **Red Flag:** Overemphasis on speed alone without considering accuracy.
+  - This reminds me of "Vibe coding"
 - **LEAP - Assess:** Analyze the impact on workflow, process, quality, & accuracy holistically.
 -->
 
@@ -580,6 +586,8 @@ sectionImage: /images/Q3-Risks.png
 # What are the **risks**?
 
 <!--
+Question 3 - What are the **risks**?
+
 - **Integrate Ethics & Responsibility:**
   - Consider potential biases
   - Security vulnerabilities
@@ -587,7 +595,7 @@ sectionImage: /images/Q3-Risks.png
 - **Red Flags:**
   - Unverified or biased data
   - Weak security
-  - No ethical guidelines
+  - Lack of ethical guidelines
 - **LEAP - Learn & Assess:** Proactively consider risks and evaluate the ethical posture
 -->
 
@@ -602,7 +610,11 @@ sectionImage: /images/Q4-Verification.jpeg
 # Can we **trust the outputs**?
 
 <!--
-- **Emphasize Verification:** Understand AI's decision-making process and have mechanisms to verify its results.
+Question 4 - Can we **trust the outputs**?
+
+- **Emphasize Verification:**
+  - Understand AI's decision-making process
+  - What are the mechanisms to verify its results.
 - **Red Flags:**
   - Black-box models
   - No verification process
@@ -617,9 +629,11 @@ sectionImage: /images/Q5-Workflows.png
 
 # Question 5:
 
-# How does it fit into our **existing workflows**?
+# How does it fit with our **existing workflows**?
 
 <!--
+Question 5 - How does it fit with out **existing workflows**?
+
 - **Technology & Infrastructure:** Ensure compatibility and minimize disruption.
 - **Red Flags:**
   - Major workflow disruption
@@ -651,6 +665,8 @@ image: /images/red-flags-gemini.jpeg
 - Major workflow disruption
 
 <!--
+Red Flags to Watch For
+
 - Hype-driven adoption
 - Vague use cases
 - Overemphasis on speed alone
@@ -669,9 +685,10 @@ image: /images/red-flags-gemini.jpeg
 
 ---
 layout: new-section
+sectionImage: /images/Practical-AI-Use-Cases.png
 ---
 
-# Practical AI Use Cases for Teams
+# Practical AI Use Cases
 
 ## Leveraging AI Across Concerns
 
@@ -685,7 +702,7 @@ layout: new-section
 layout: default
 ---
 
-# AI in Requirements Engineering (RE)
+# AI in Requirements Engineering
 
 - NLP/LLMs for eliciting, analyzing, and validating requirements.
 - Generating user stories and initial system models.
@@ -696,6 +713,8 @@ layout: default
   - **Propagate:** Scale use of validated NLP tools.
 
 <!--
+AI in Requirements Engineering
+
 - Natural language processing and LLMs for eliciting, analyzing, and validating requirements.
 - Generating user stories and initial system models.
 - **LEAP:**
@@ -744,6 +763,8 @@ layout: default
   - **Propagate:** Integrate successful techniques into QA workflows.
 
 <!--
+AI-Assisted Code
+
 - LLMs and specialized models for generating unit, integration, and end-to-end tests.
 - AI for GUI testing, fuzz testing, visual regression, bug detection.
 - **LEAP:**
@@ -768,6 +789,8 @@ layout: default
   - **Propagate:** Expand automation across more services.
 
 <!--
+AI in DevOps
+
 - Automation of CI/CD, intelligent monitoring, anomaly detection, predictive failure analysis.
 - MLOps platforms for managing ML pipelines.
 - **LEAP:**
@@ -792,6 +815,8 @@ layout: default
   - **Propagate:** Integrate successful techniques into PM workflows.
 
 <!--
+AI-Assisted Project Management and Reporting
+
 - Automation of CI/CD, intelligent monitoring, anomaly detection, predictive failure analysis.
 - MLOps platforms for managing ML pipelines.
 - **LEAP:**
@@ -816,6 +841,8 @@ layout: default
   - **Propagate:** Integrate validated tools into the DevSecOps pipeline.
 
 <!--
+AI for Security Analysis
+
 - Enhanced threat detection, log analysis, vulnerability assessment, automated Security Operations Center (SOC) tasks.
 - AI tools for code vulnerability scanning.
 - **LEAP:**
@@ -834,6 +861,10 @@ layout: new-section
 ## Emphasize Value, Risk Management, and the LEAP Framework
 
 <!--
+Communicating AI Strategy to Leadership
+
+Emphasize Value, Risk Management, and the LEAP Framework
+
 - Communicating AI strategy to leadership is crucial for gaining support and resources.
 - Focus on the value AI can bring to the organization.
 - Highlight the importance of risk management and ethical considerations.
@@ -850,6 +881,10 @@ layout: cover
 ## Embrace AI Thoughtfully and Strategically
 
 <!--
+Conclusion & Key Takeaways
+
+Embrace AI Thoughtfully and Strategically
+
 - AI is a powerful tool, but it requires careful consideration and planning.
 - The LEAP framework provides a structured approach to AI adoption.
 - Focus on learning, experimentation, assessment, and sharing.
