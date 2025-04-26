@@ -1,121 +1,125 @@
 @font-face {
-  font-family: "Gilroy Bold";
-  font-style: normal;
-  font-weight: bold;
-  font-display: swap;
-  src:
-    local("Gilroy Bold"),
-    url("../public/fonts/Gilroy-Bold.woff") format("woff");
+    font-family: "Sen";
+    src:
+        local("Sen"),
+        url("../public/fonts/Sen-VariableFont_wght.ttf") format("truetype");
 }
 
 :root {
-  --slidev-theme-primary: #5d8392;
+    --slidev-theme-primary: oklch(43.8% 0.218 303.724);
 }
 
 .slidev-layout {
-  @apply p-10 h-full flex flex-col;
+    @apply p-10 h-full flex flex-col text-xl;
 
-  h1,
-  h2,
-  h3,
-  h4,
-  p,
-  div {
-    @apply select-none;
-  }
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    div {
+        @apply select-none;
+    }
 
-  pre,
-  code {
-    @apply select-text;
-  }
+    pre,
+    code {
+        @apply select-text;
+    }
 
-  h1 {
-    @apply text-4xl mb-4;
-  }
+    h1 {
+        @apply text-5xl mb-4;
+    }
 
-  h2 {
-    @apply text-2xl;
-  }
+    h2 {
+        @apply text-3xl;
+    }
 
-  h3 {
-    @apply text-lg uppercase tracking-widest font-500;
-  }
+    h3 {
+        @apply text-xl uppercase tracking-widest font-500;
+    }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-bold font-title bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-sky-500 dark:(from-sky-500 to-sky-200);
-  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-bold font-title bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-700 dark:(from-purple-100 to-purple-50);
+    }
+    h1 {
+        color: rgb(236, 98, 98);
+    }
 
-  p:not(.mb-0) {
-    @apply mb-4 leading-6;
-  }
+    p:not(.mb-0) {
+        @apply mb-4 leading-6;
+    }
 
-  strong {
-    @apply text-sky-600 dark:text-sky-100;
-  }
+    strong {
+        @apply text-teal-500 dark:text-white;
+    }
 
-  h1 + p {
-    @apply -mt-3 opacity-70;
-  }
+    h1 + p {
+        @apply -mt-3 opacity-70;
+    }
 
-  p + h2,
-  ul + h2,
-  table + h2 {
-    @apply mt-10;
-  }
+    p {
+        @apply text-xl;
+    }
 
-  ul {
-    list-style: circle;
-  }
+    p + h2,
+    ul + h2,
+    table + h2 {
+        @apply mt-10;
+    }
 
-  ol {
-    list-style: decimal;
-  }
+    ul {
+        list-style: circle;
+    }
 
-  li {
-    @apply ml-1.1em pl-0.2em leading-1.8em;
-  }
+    ol {
+        list-style: decimal;
+    }
 
-  blockquote {
-    @apply text-sm px-2 py-1 bg-$prism-background border-$slidev-theme-primary border-l rounded;
-  }
+    li {
+        @apply ml-1.1em pl-0.2em leading-1.8em;
+    }
 
-  blockquote > * {
-    @apply my-0;
-  }
+    blockquote {
+        @apply text-sm px-2 py-1 bg-$prism-background border-$slidev-theme-primary border-l rounded;
+    }
 
-  table {
-    @apply w-full;
-  }
+    blockquote > * {
+        @apply my-0;
+    }
 
-  tr {
-    @apply border-b border-gray-400 border-opacity-20;
-  }
+    table {
+        @apply w-full;
+    }
 
-  th {
-    @apply text-left font-400;
-  }
+    tr {
+        @apply border-b border-gray-400 border-opacity-20;
+    }
 
-  a {
-    @apply border-current border-b border-dashed hover:(text-primary border-solid);
-  }
+    th {
+        @apply text-left font-400;
+    }
 
-  td,
-  th {
-    @apply p-2 py-3;
-  }
+    a {
+        @apply border-current border-b border-dashed hover:(text-primary border-solid);
+    }
 
-  b,
-  strong {
-    @apply font-600;
-  }
+    td,
+    th {
+        @apply p-2 py-3;
+    }
 
-  kbd {
-    @apply border border-gray-400 border-b-2 border-opacity-20 rounded;
-    @apply bg-gray-400 bg-opacity-5 py-0.5 px-1 text-xs font-mono;
-  }
+    b,
+    strong {
+        @apply font-600;
+    }
+
+    kbd {
+        @apply border border-gray-400 border-b-2 border-opacity-20 rounded;
+        @apply bg-gray-400 bg-opacity-5 py-0.5 px-1 text-xs font-mono;
+    }
 }

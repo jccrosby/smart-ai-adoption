@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-main slidev-layout">
+  <div
+    class="bg-main text-gray-900 dark:(from-gray-800 to-gray-900 text-white) slidev-layout"
+  >
     <LayoutHeader :logoHeader="logoHeader" />
     <div class="my-auto">
       <slot />

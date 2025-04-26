@@ -1,27 +1,29 @@
 {
-  "name": "smart-ai-adoption",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export:pdf": "slidev export --format pdf --dark true",
-    "export:pptx": "slidev export --format pptx --dark true"
-  },
-  "dependencies": {
-    "@slidev/cli": "^51.2.2",
-    "@slidev/theme-default": "latest",
-    "slidev-theme-unicorn": "^1.1.2",
-    "vue": "^3.5.13"
-  },
-  "devDependencies": {
-    "@unocss/preset-mini": "66.1.0-beta.10",
-    "@unocss/preset-wind3": "66.1.0-beta.10",
-    "playwright-chromium": "^1.51.0",
-    "prettier": "^3.5.2",
-    "prettier-plugin-slidev": "^1.0.5"
-  },
-  "pnpm": {
-    "overrides": {}
-  }
+    "name": "smart-ai-adoption",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "build": "slidev build",
+        "dev": "slidev --open",
+        "export:pdf": "slidev export --format pdf",
+        "export:pptx": "slidev export --format pptx",
+        "export:dark:pdf": "slidev export --format pdf --dark true",
+        "export:dark:pptx": "slidev export --format pptx --dark true"
+    },
+    "dependencies": {
+        "@slidev/cli": "^51.2.2",
+        "@slidev/theme-default": "latest",
+        "slidev-theme-unicorn": "^1.1.2",
+        "vue": "^3.5.13"
+    },
+    "devDependencies": {
+        "@unocss/preset-mini": "66.1.0-beta.10",
+        "@unocss/preset-wind3": "66.1.0-beta.10",
+        "playwright-chromium": "^1.51.0",
+        "prettier": "^3.5.2",
+        "prettier-plugin-slidev": "^1.0.5"
+    },
+    "pnpm": {
+        "overrides": {}
+    }
 }
