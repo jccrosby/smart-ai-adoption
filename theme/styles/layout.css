@@ -105,7 +105,7 @@
     }
 
     a {
-        @apply border-current border-b border-dashed hover:(text-primary border-solid);
+        @apply border-current border-b border-none hover:(text-primary border-solid);
     }
 
     td,

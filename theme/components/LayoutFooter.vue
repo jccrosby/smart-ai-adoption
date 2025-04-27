@@ -15,24 +15,30 @@
         </p> -->
         <div class="flex flex-wrap justify-around w-full gap-4 mb-7">
             <p v-if="email">
-                <a :href="emailLink">
+                <a :href="emailLink" class="text-2xl">
                     <carbon:email class="text-2xl mr-2 align-middle" />{{
                         email
                     }}
                 </a>
             </p>
             <p v-if="website" class="mb-0">
-                <a :href="website" target="_blank">{{ website }}</a>
+                <a :href="website" class="text-2xl" target="_blank">{{
+                    website
+                }}</a>
             </p>
             <p v-if="bsky" class="mb-0">
-                <a :href="bskyUrl" target="_blank"> Bsky: @{{ bsky }} </a>
+                <a :href="bskyUrl" class="text-2xl" target="_blank">
+                    bsky: @{{ bsky }}
+                </a>
             </p>
         </div>
         <div class="flex flex-wrap justify-around mt-7">
             <p v-if="github">
-                <carbon:logo-github class="text-2xl mr-2" /><a :href="github">{{
-                    github
-                }}</a>
+                <carbon:logo-github class="text-2xl mr-2" /><a
+                    :href="github"
+                    class="text-2xl"
+                    >{{ github }}</a
+                >
             </p>
         </div>
     </footer>
