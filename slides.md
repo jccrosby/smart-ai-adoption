@@ -71,7 +71,7 @@ Navigating AI for Teams
 
 Smart Adoption vs. Blind FOMO
 
-1. I see rigth now is a lot of fear mongering out there
+1. What I see right now is a lot of fear mongering out there
    1. AI is going to take all our jobs!
    2. AI won’t take your job—but someone using it smarter will.
 2. The pressure is real.
@@ -91,17 +91,13 @@ image: /images/ai-landscape.png
 <!--
 The Current Landscape
 
-1. Because rapid changes due to AI advancements
-   1. Especially around LLMs and generative AI.
-   2. There are already lots of experiments using AI tools in many different ways.
-2. Questions
+1. Questions
    1. Who here
-      1. ...leads an entire company or group of many teams?
-      2. ...leads multiple teams?
-      3. ...leads a single team?
+      1. ...leads a team or group of teams?
    2. How many of you have said or heard some form of "we need to do something with AI"?
-3. The truth is regardless of the number of teams you're part of or leading, everyone is going to have to deal with these changes.
-4. There is a lot of overwhelm from from the hype and the sheer volume of advancements, news, and available tools.
+2. Because that and the sheer volume of AI advancements, the news around it, and new tools showing up almost every day.
+3. There is a lot of overwhelm from from the hype
+4. The truth is regardless of the number of teams you're part of or leading, we're all going to have to deal with these changes.
 -->
 
 ---
@@ -117,15 +113,15 @@ The Dual Edge: Hype vs. Opportunity
 
 The pressure to "do something with AI" can lead to rushed decisions & poor outcomes
 
-1. It's an exciting time! AI offers opportunities like
+1. It's an exciting time though! AI offers opportunities like
    1. Enhanced productivity
    2. Better quality
    3. Faster cycles or higher velocity
    4. More innovation more often
 2. There are risks that come along with that - FOMO is a big driver of that
-   1. No direction - lack of clear goals
-   2. Not having a plan
-   3. No coherent strategy
+   1. You want to jump on the opportunities, but there's no direction - lack of clear goals
+   2. There's not a plan
+   3. and there is no coherent strategy
    4. "just get out there and make sure we're using it"
 
 The challenge is to navigate this quickly evolving landscape smartly, so we can harness those opportunities and avoid the risks and pitfalls.
